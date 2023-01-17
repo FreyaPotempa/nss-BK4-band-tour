@@ -1,0 +1,26 @@
+.bookings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed salmon;
+    
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid purple;
+    
+}
+
+.detail--column {
+    flex-basis: 50%;
+    padding: 1rem;
+    border: 1px dotted firebrick;
+   
+}
+
+ul {
+    text-align: left;
+}
